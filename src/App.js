@@ -1658,4 +1658,4 @@ function TopLevelApp() {
     );
 }
 
-export default TopLevelApp;
+export default App;
