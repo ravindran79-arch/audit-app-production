@@ -7,7 +7,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "firebase": "^9.6.10"
+    "firebase": "^9.6.10",
+    "lucide-react": "^0.302.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,4 +22,5 @@
   }
 
 }
+
 
