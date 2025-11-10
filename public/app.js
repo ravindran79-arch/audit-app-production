@@ -1,6 +1,6 @@
 const express = require('express');
 // CRITICAL FIX: Changed import to resolve 'GoogleGenerativeAI is not a constructor' error
-const { GoogleGenerativeAI } = require('@google/genai');
+const GoogleGenerativeAI = require('@google/genai').GoogleGenerativeAI;
 const cors = require('cors');
 const multer = require('multer');
 
