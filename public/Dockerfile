@@ -12,7 +12,7 @@ WORKDIR /usr/src/app
 # Copy application dependency manifests to the container image.
 # A wildcard is used to ensure both package.json AND package-lock.json are copied.
 # Copying this first allows for better cache efficiency.
-COPY package*.json ./
+COPY ../package*.json ./
 
 # Install production dependencies.
 # The container will crash on startup if any dependencies are missing.
@@ -31,4 +31,5 @@ COPY . .
 
 # Run the web service on the container's default port.
 # Cloud Run automatically injects the PORT environment variable.
+
 CMD [ "npm", "start" ]
